@@ -104,7 +104,7 @@ In your templates
 
     <div id="my-chart"></div>
     <script type="text/javascript">
-      new Highcharts.Chart({{chart|safe}});
+      {{chart|safe}}
     </script>
 
 Contributing
